@@ -1,8 +1,6 @@
 # Callnua App
-Production client/admin application for Callnua.
+Next.js App Router product shell for app.callnua.com.
 
-## Environment variables
-NEXT_PUBLIC_SUPABASE_URL
-NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY
-
-The Supabase project is Callnua Production. Never add service-role keys to client-side code.
+Required Vercel environment variables:
+- NEXT_PUBLIC_SUPABASE_URL
+- NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY
